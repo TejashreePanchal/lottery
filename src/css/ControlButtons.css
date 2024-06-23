@@ -1,0 +1,36 @@
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.control-button {
+  width: 140px; /* Increased width to fit the text */
+  height: 60px;
+  font-size: 16px; /* Adjusted font size if needed */
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 0; /* Ensure no extra padding */
+  background-color: #5f5754; /* Background color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Prevent text wrapping */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-button:hover {
+  background-color: #FF6347; /* Lighter background color on hover */
+}

@@ -1,0 +1,39 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: antiquewhite;
+}
+
+.header,
+.footer {
+  width: 100%;
+  background-color: #507070;
+  color: white;
+  text-align: center;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 10; /* Remove padding to avoid extra space */
+}
+
+.header-image {
+  width: 100%; /* Sets the width to 100% of the header */
+  height: auto; /* Maintains the aspect ratio */
+  max-height: 600px; /* Optional: limits the maximum height */
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%; /* Adjusted width as per the request */
+  padding: 20px;
+}

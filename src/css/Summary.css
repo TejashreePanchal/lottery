@@ -1,0 +1,28 @@
+.summary {
+    background: #5f5754;
+    padding: 40px;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 300px;
+    margin-left: 80px
+  }
+  
+  .summary h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .numbers-list {
+    margin-bottom: 20px;
+  }
+  
+  .numbers-list div {
+    margin-bottom: 5px;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
